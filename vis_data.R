@@ -265,3 +265,4 @@ plot(x, col=(km_out$cluster+1),
 
 use_git()
 use_github("AL19")
+usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
