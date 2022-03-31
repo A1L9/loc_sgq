@@ -1,9 +1,9 @@
 # Title:    Configuração do Git e do GitHub
-# Author:   Antonio Sergio da Silva
+# Author:   Aline Lopes da Silva
 # File:     Fundamentos da Linguagem R
 # Project:  League Online Courses
 # Purpose:
-Date:       now()
+# Date:       now()
 
 
 # INSTALL AND LOAD PACKAGES ###################################################
@@ -31,6 +31,8 @@ library (usethis)
 
 # Criar o CAMINHO ABSOLUTO
 
+create_project("C:/aline/loc_sgq")
+
 create_project("C:/home/loc_sgq")
 
 # Saidas no Console-------------------------------------------------------------
@@ -46,8 +48,8 @@ create_project("C:/home/loc_sgq")
 # Configurar o R para o Git e O GitHub #########################################
 
 use_git_config(
-    user.name = "ansesi",
-        user.email = "tao281168@gmail.com"
+    user.name = "al19081987",
+        user.email = "al19081987@gmail.com"
 )
 
 # Ao rodar estes comandos, o R ja casdastra o Git. Isto só se faz uma única vez por máquina.
