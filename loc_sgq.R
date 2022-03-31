@@ -48,7 +48,7 @@ create_project("C:/home/loc_sgq")
 # Configurar o R para o Git e O GitHub #########################################
 
 use_git_config(
-    user.name = "al19081987",
+    user.name = "A1L9",
         user.email = "al19081987@gmail.com"
 )
 
